@@ -1,4 +1,3 @@
-
 cara run 
 
 `` 
@@ -13,11 +12,15 @@ npm install --save-dev hardhat
 npx hardhat
 # pilih "Create a basic sample project"
 npm install --save-dev @nomicfoundation/hardhat-toolbox
+
 ``
 
 buat file .ENV masukan private key
 
-`` PRIVATE_KEY=XXXXXXXXXX ``
+``
+PRIVATE_KEY=XXXXXXXXXX 
+
+``
 
 run 
 ``
