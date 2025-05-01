@@ -10,7 +10,6 @@ cd megaeth-deploy
 npm init -y
 npm install --save-dev hardhat
 npx hardhat
-# pilih "Create a basic sample project"
 npm install --save-dev @nomicfoundation/hardhat-toolbox
 ``
 
