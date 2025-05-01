@@ -1,13 +1,26 @@
-# Sample Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+cara run 
 
-Try running some of the following tasks:
+`` 
+git clone https://github.com/mrplanktn/deploy
+``
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+``
+mkdir megaeth-deploy
+cd megaeth-deploy
+npm init -y
+npm install --save-dev hardhat
+npx hardhat
+# pilih "Create a basic sample project"
+npm install --save-dev @nomicfoundation/hardhat-toolbox
+``
+
+buat file .ENV masukan private key
+
+`` PRIVATE_KEY=XXXXXXXXXX ``
+
+run 
+``
+npx hardhat run scripts/deploy.js --network megaeth
+
+``
